@@ -1,0 +1,114 @@
+*{
+    margin:0px;
+}
+
+body{
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 10px;
+    border-bottom: 1px solid silver;
+}
+
+.icons{
+    display: flex;
+    padding-top: 4px;
+    width: 28%;
+    justify-content: space-evenly;
+}
+
+#logo{
+    margin-left: 15px;
+    width: 65px;
+    height: 45px;
+}
+
+#tree{
+    width: 28px;
+    height: 22px;
+    padding-top: 5px;
+}
+
+#number{
+    padding-top: 12px;
+    padding-left: 5px;
+}
+
+.tree-counter{
+    display: inline-flex;
+    justify-content: center;
+    width: 75px;
+    height: 38px;
+    padding-top: 2px;
+    border: 1px solid silver;
+    border-radius: 20px;
+    font-size: 11px;
+    cursor: pointer;
+}
+
+.symbols span{
+    border: 1px solid silver;
+    border-radius: 30px;
+}
+
+.button input{
+    padding: 13px 15px;
+    border:2px;
+    border-radius: 3px;
+    font-size: 14px;
+    background-color: #438de0;
+    color: aliceblue;
+    cursor: pointer;
+}
+
+.material-symbols-outlined{
+    padding: 8px 8px;
+    color: rgb(102, 101, 101);
+    cursor: pointer;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    padding: 75px 100px;
+    text-align: center;
+}
+
+#input-search input{
+    width: 50%;
+    height: 50px;
+    padding: 0 20px;
+    font-size: 18px;
+    border: 1px solid silver;
+    border-radius: 5px;
+}
+
+.picture{
+    padding-bottom: 25px;
+}
+
+.slogan{
+    padding-top: 50px;
+    font-size: x-large;
+    font-weight: bold;
+    color: rgb(43, 42, 42);
+}
+
+h2{
+    padding-top: 20px;
+    padding-bottom: 10px;
+    color: #36acb8;
+    font-size: xx-large;
+    font-weight: bold;
+}
+
+footer{
+    padding: 20px 0px;
+    background-color: rgba(208, 245, 245, 0.856);
+    text-align: center;
+    color: rgb(102, 101, 101);
+    font-size: 11px;
+}
